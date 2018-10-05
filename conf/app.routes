@@ -11,3 +11,18 @@ GET        /this-service-has-been-reset                 controllers.SessionExpir
 GET        /check-your-answers                          controllers.CheckYourAnswersController.onPageLoad
 
 GET        /unauthorised                                controllers.UnauthorisedController.onPageLoad
+
+GET        /applyingForSomeoneElse                        controllers.ApplyingForSomeoneElseController.onPageLoad(mode: Mode = NormalMode)
+POST       /applyingForSomeoneElse                        controllers.ApplyingForSomeoneElseController.onSubmit(mode: Mode = NormalMode)
+GET        /changeApplyingForSomeoneElse                  controllers.ApplyingForSomeoneElseController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeApplyingForSomeoneElse                  controllers.ApplyingForSomeoneElseController.onSubmit(mode: Mode = CheckMode)
+
+GET        /contactDetails                        controllers.ContactDetailsController.onPageLoad(mode: Mode = NormalMode)
+POST       /contactDetails                        controllers.ContactDetailsController.onSubmit(mode: Mode = NormalMode)
+GET        /changeContactDetails                  controllers.ContactDetailsController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeContactDetails                  controllers.ContactDetailsController.onSubmit(mode: Mode = CheckMode)
+
+GET        /isEoriForContactPerson                        controllers.IsEoriForContactPersonController.onPageLoad(mode: Mode = NormalMode)
+POST       /isEoriForContactPerson                        controllers.IsEoriForContactPersonController.onSubmit(mode: Mode = NormalMode)
+GET        /changeIsEoriForContactPerson                  controllers.IsEoriForContactPersonController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeIsEoriForContactPerson                  controllers.IsEoriForContactPersonController.onSubmit(mode: Mode = CheckMode)

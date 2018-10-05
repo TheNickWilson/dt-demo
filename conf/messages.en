@@ -42,3 +42,23 @@ site.textarea.char_limit = (Limit is {0} characters)
 
 unauthorised.title = You can’t access this service with this account
 unauthorised.heading = You can’t access this service with this account
+
+applyingForSomeoneElse.title = applyingForSomeoneElse
+applyingForSomeoneElse.heading = applyingForSomeoneElse
+applyingForSomeoneElse.checkYourAnswersLabel = applyingForSomeoneElse
+applyingForSomeoneElse.error.required = Select yes if applyingForSomeoneElse
+
+contactDetails.title = contactDetails
+contactDetails.heading = contactDetails
+contactDetails.field1 = Field 1
+contactDetails.field2 = Field 2
+contactDetails.checkYourAnswersLabel = contactDetails
+contactDetails.error.field1.required = Enter field1
+contactDetails.error.field2.required = Enter field2
+contactDetails.error.field1.length = field1 must be 100 characters or less
+contactDetails.error.field2.length = field2 must be 100 characters or less
+
+isEoriForContactPerson.title = isEoriForContactPerson
+isEoriForContactPerson.heading = isEoriForContactPerson
+isEoriForContactPerson.checkYourAnswersLabel = isEoriForContactPerson
+isEoriForContactPerson.error.required = Select yes if isEoriForContactPerson
